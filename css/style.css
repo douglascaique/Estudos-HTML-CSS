@@ -1,0 +1,26 @@
+/*seletor, outroseletor {
+    propriedade: valor;
+}
+
+comentarios em css*/
+
+
+#fontsize{
+    font-size: 26px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+#linethrough{
+    text-decoration: line-through;
+}

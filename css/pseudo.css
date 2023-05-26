@@ -1,0 +1,29 @@
+
+body{
+    text-align: center;
+
+}
+a {
+    font-size: 35px;
+}
+
+/*pseudoclasses*/
+a,
+a:visited{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+a:active{
+    color: orange;
+}
+
+
+
+a:focus{
+    background-color: lightgray;
+}
