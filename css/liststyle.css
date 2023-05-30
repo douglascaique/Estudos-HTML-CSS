@@ -1,14 +1,41 @@
-ul{
-    list-style-type: disc;
-   /* list-style-position:inside ou outside;*/
-    padding-left: 0;
+body{
+    background-color: gray;
 }
 
-li{
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
     display: inline-block;
+    margin-right: 10px;
+  }
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+h1{
+    width: 300px;
+    height: 40px;
+    box-shadow: 5px 5px 5px #333;
+    background-color: cadetblue;
+    display: inline-block;
+    text-align: center;
 }
 
-div{
+div.caixa,.caixa2,.caixa3{
     background-color: burlywood;
     width: 200px;
     height: 200px;
@@ -24,11 +51,14 @@ div{
     box-shadow: 5px 5px 5px rgba(71, 71, 71, 0.493);
 }
 .caixa2 {
-    border: 5px double blueviolet;
+    border: 5px double black;
     border-radius: 10px 15px;
+    background-color: hotpink;
+    box-shadow:2px 2px 5px #333;
 }
 .caixa3 {
-    border: 5px solid blueviolet;
+    border: 2px solid blue;
     border-radius: 20px;
+    background-color: green;
     box-shadow: 5px 5px 5px black;
 }
